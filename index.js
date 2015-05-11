@@ -25,7 +25,7 @@ function group (length) {
   }
 }
 
-module.exports = function generate () {
+function generate () {
   return [
     group(8),
     group(4),
@@ -34,3 +34,7 @@ module.exports = function generate () {
     group(12)
   ].join("-");
 }
+
+module.exports = {
+ genrate: generate
+};

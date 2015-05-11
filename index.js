@@ -9,7 +9,7 @@
 
 var CHARS   = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 var VERSION = "1";
-var MARK    = "SP"'
+var MARK    = "SP";
 
 function randChar () {
   return CHARS[~~(Math.Random() * CHARS.length)];

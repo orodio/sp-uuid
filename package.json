@@ -1,0 +1,22 @@
+{
+  "name": "sp-uuid",
+  "version": "1.0.0",
+  "description": "SitePoint UUID generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/orodio/uuid"
+  },
+  "keywords": [
+    "uuid"
+  ],
+  "author": "orodio <james@bjorkman.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sitepoint/uuid/issues"
+  },
+  "homepage": "https://github.com/sitepoint/uuid"
+}
